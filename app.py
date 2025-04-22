@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.image("imagescr7.jpg")
 R = 0.0821
 
 st.title("Calculadora de la Ecuación de los Gases Ideales")
