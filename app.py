@@ -45,4 +45,4 @@ elif variable == "Número de moles (n)":
     if st.button("Calcular número de moles"):
         n = (P * V) / (R * T)
         st.success(f"El número de moles es {n:.3f} mol")
-st.imagen(imagescr7.jpg)
+        
