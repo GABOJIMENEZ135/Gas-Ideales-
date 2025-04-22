@@ -18,7 +18,7 @@ if variable == "Presión (P)":
     if st.button("Calcular Presión"):
         P = (n * R * T) / V
         st.success(f"La presión es {P:.3f} atm")
-
+st.imagen(imagescr7.jpg)
 elif variable == "Volumen (V)":
     P = st.number_input("Presión (atm)", min_value=0.01)
     n = st.number_input("Número de moles (mol)", min_value=0.01)
