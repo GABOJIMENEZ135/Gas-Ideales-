@@ -1,6 +1,5 @@
 import streamlit as st
-st.image("imagescr7.jp7")
-# Constante universal de los gases (L·atm/mol·K)
+
 R = 0.0821
 
 st.title("Calculadora de la Ecuación de los Gases Ideales")
